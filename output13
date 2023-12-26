@@ -1,0 +1,28 @@
+
+> next13@0.1.0 build
+> next build
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ ✓ Generating static pages (5/5) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    49.1 kB         130 kB
+└ ○ /_not-found                          875 B          81.4 kB
++ First Load JS shared by all            80.5 kB
+  ├ chunks/472-71d70e4425737683.js       27.5 kB
+  ├ chunks/fd9d1056-d093c04e0c4e64b9.js  51.1 kB
+  ├ chunks/main-app-dfd47d9144bc4298.js  230 B
+  └ chunks/webpack-498de125ae8e3f8a.js   1.73 kB
+
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
